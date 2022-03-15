@@ -1,1 +1,1 @@
-# ITS-200-Final-Project
+The goeal is to create a webpage for the Campbell UNiversity Band program to show the different ways to contribute to the band and also to display what we do as a band and te different feilds within the band. 
