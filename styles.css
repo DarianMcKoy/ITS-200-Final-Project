@@ -8,10 +8,9 @@ body { /*This calls for the page body to be customized*/
 	text-align: left; /*This aligns the campbell logo to the left of the page*/
 }
 p.one{ /*This calls for the the paragraph one class in the html to be customized*/
-	border-top: 32px solid;
-	color: #ea7125;
-	padding: 0px;
-	flex-grow: inherit;
+	border-top: 32px solid; /*Creates a border at the top of the page above the logo*/
+	color: #ea7125; /*Makes the border line orange*/
+	flex-grow: inherit; /*Allows the border to flex with the the page*/
 }
 .content_band_bg { /*All of the content and classes within this class will be customized*/
 	width: 100%;
