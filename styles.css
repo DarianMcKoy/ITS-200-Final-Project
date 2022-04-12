@@ -13,11 +13,11 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	flex-grow: inherit; /*Allows the border to flex with the the page*/
 }
 .content_band_bg { /*All of the content and classes within this class will be customized*/
-	width: 100%;
-	height: 70vh;
-	max-height: 675px;
-	text-align: center;
-	position: relative;
+	width: 100%; /*Makes the border width for the welcome content the entire width of the page*/
+	height: 70vh; /*Makes the set height of the borders for the welcome content*/
+	max-height: 675px; /*The set height can not get any bigger than this*/
+	text-align: center; /*Centers the image and the text*/
+	position: relative; /*Position is set based on movement of the page*/
 }
 .band_bg_image { /*This only calls the image used to be customized*/
 	border-style: none;
