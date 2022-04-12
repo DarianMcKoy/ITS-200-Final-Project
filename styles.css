@@ -1,12 +1,11 @@
 body { /*This calls for the page body to be customized*/
-	text-align: center;
-	font-family: "Times New Roman", "sans-serif";
-	font-weight: 400;
+	text-align: center; /*This centers all the text on the page*/
+	font-family: "Times New Roman", "sans-serif"; /*All font families unless specified in a different class
+							will be one of these two families*/
+	font-weight: 400; /*All the text will be weighed at 400 on the page*/
 }
 .home { /*This calls for the home div class only*/
-	text-align: left;
-	object-fit: cover;
-	object-position: top-left;
+	text-align: left; /*This aligns the campbell logo to the left of the page*/
 }
 p.one{ /*This calls for the the paragraph one class in the html to be customized*/
 	border-top: 32px solid;
@@ -40,12 +39,12 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	width: 100%;
 	font-weight: 300;
 }
-.welcome_p {
+.welcome_p { /*This calls for the paragraph under the welcome text to be customized*/
 	font-family: "sans-serif";
 	font-size: 2rem;
 }
-.button {
-	background-color: #ea7125;
-	border: none;
-	padding: 1.125rem 2.25rem 1rem;
+.button { /*This customizes the buttons that are made*/
+	background-color: #ea7125; /*Makes the buttons an orange color*/
+	border: none; /*Gets rid of the basic borders of a button*/
+	padding: 1.125rem 2.25rem 1rem; /*Allows more spacing between the words and edges of the button*/
 }
