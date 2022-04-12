@@ -1,27 +1,27 @@
-body {
+body { /*This calls for the page body to be customized*/
 	text-align: center;
 	font-family: "Times New Roman", "sans-serif";
 	font-weight: 400;
 }
-.home {
+.home { /*This calls for the home div class only*/
 	text-align: left;
 	object-fit: cover;
 	object-position: top-left;
 }
-p.one{
+p.one{ /*This calls for the the paragraph one class in the html to be customized*/
 	border-top: 32px solid;
 	color: #ea7125;
 	padding: 0px;
 	flex-grow: inherit;
 }
-.content_band_bg {
+.content_band_bg { /*All of the content and classes within this class will be customized*/
 	width: 100%;
 	height: 70vh;
 	max-height: 675px;
 	text-align: center;
 	position: relative;
 }
-.band_bg_image {
+.band_bg_image { /*This only calls the image used to be customized*/
 	border-style: none;
 	height: 100%;
 	width: 100%;
@@ -30,7 +30,7 @@ p.one{
 	opacity: 0.90;
 	filter: brightness(50%);
 }
-.welcome_text {
+.welcome_text { /*This only calls for the overlapped text to be customized*/
 	position: absolute;
 	top: 45%;
 	left: 50%;
