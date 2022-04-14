@@ -29,18 +29,18 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	filter: brightness(50%); /*Lowered the brightness of the image by half*/
 }
 .welcome_text { /*This only calls for the overlapped text to be customized*/
-	position: absolute;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: White;
-	font-family: "Helvetica", "Roboto", "Arial";
-	width: 100%;
-	font-weight: 300;
+	position: absolute; /*This makes sure the set position does not change*/
+	top: 45%; /*Keeps text 45% from the top of the image*/
+	left: 50%; /*Keeps the text centered between left and right*/
+	transform: translate(-50%, -50%); /*This prevents the text from moving down or right but keeps centered as page is moved*/
+	color: White; /*Color of the text is white*/
+	font-family: "Helvetica", "Roboto", "Arial"; /*Font family will be one of these three(Arial most likely)*/
+	width: 100%; /*Allows for text to take up width over the image as needed*/
+	font-weight: 300; /*Causes the text to be set strong over the image for easier reading*/
 }
 .welcome_p { /*This calls for the paragraph under the welcome text to be customized*/
-	font-family: "sans-serif";
-	font-size: 2rem;
+	font-family: "sans-serif"; /*Font family will stay sans-serif in this section*/
+	font-size: 2rem; /*Font size is 32px but smaller than the title on the image*/
 }
 .button { /*This customizes the buttons that are made*/
 	background-color: #ea7125; /*Makes the buttons an orange color*/
