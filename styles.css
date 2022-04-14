@@ -20,13 +20,13 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	position: relative; /*Position is set based on movement of the page*/
 }
 .band_bg_image { /*This only calls the image used to be customized*/
-	border-style: none;
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-	object-fit: cover;
-	opacity: 0.90;
-	filter: brightness(50%);
+	border-style: none; /*This allows for no border to be around the image*/
+	height: 100%; /*This sets the height of the image to be used*/
+	width: 100%; /*This causes the width to take up the entire width of the page*/
+	max-width: 100%; /*This makes sure the width isn't any larger than set width*/
+	object-fit: cover; /*This fits the whole image to set size without it compressing in anyways*/
+	opacity: 0.90; /*This makes the image a little less clear than normal*/
+	filter: brightness(50%); /*Lowered the brightness of the image by half*/
 }
 .welcome_text { /*This only calls for the overlapped text to be customized*/
 	position: absolute;
