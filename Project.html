@@ -20,8 +20,8 @@ hyperlink*
 
 	<body>
 	<script type="text/javascript">
-	var name;
-	name = prompt("What is your name?"); <!--this displays a popup box asing for the users name-->
+	var name;  <!-- this makes name a varible-->
+	name = prompt("What is your name?"); <!--this javascript displays a popup box asing for the users name-->
 	
 	</script>
 	<div class="home"> <!--This div element creates and seperates the logo at the top-->
@@ -37,7 +37,7 @@ hyperlink*
 				<!-- this puts the users name above the Welcome headding-->
 				<script type="text/javascript">
 		
-			document.writeln("<h2>" + name + "</h2>");
+			document.writeln("<h2>" + name + "</h2>"); <!-- This is a javascript that inpts the persons name into the webpage/-->
 		
 		</script>
 				<h1 style="font-size: 3rem">Welcome to Campbell University Bands!
@@ -57,29 +57,45 @@ hyperlink*
 			Welcome to the website! We are excited that you have taken interest in Campbell Universities' band programs. 
 			Below is a list of the different band programs you could be a part of here at Campbell University. 
 		</p>
-		<!--unorderlist of the different ensembles-->
+		<!--unorderlist of the different ensembles that will be displayed on te website.-->
 		<ul>
-			<!-- each unordered li is also a button that will go to each ensembles web page-->
-			<li><button class="button">Wind Symphony</button></li>
-			<li><button class="button">Wind Ensemble</button></li>
-			<li><button class="button">Marching Band</button></li>
-			<li><button class="button">Percusion Ensemble</button></li>
-			<li><button class="button">Jazz Ensemble</button></li>
+			<li>Wind Symphony</li>
+			<li>Wind Ensemble</li>
+			<li>Marching Band</li>
+			<li>Percusion Ensemble</li>
+			<li>Jazz Ensemble</li>
 		</ul>
 		<!-- Another paragraph for more information-->
 		<p> As you can see there are many bands that you could join and more! If you are more interested in vocals/chorus, 
 		then take a look at our vocal/chorus programs provided in the link below.</p> 
+		
+		<script type="text/javascript">
+		var choice = prompt("Interested in Campbell?")<!--This asks for the users name;/-->
+		if(choice == "Y") <!-- This javascript uses a if statment, if the user answers yes it will tell the user to look at the Apply Now section./-->
+		{
+			alert("Look at the Apply Now section");
+		}
+		else if (choice == "N") <!-- This javascript will happen f the user puts in N instead of Y and tell the user to enjoy the website./-->
+		{
+			alert("Thats Okay! Please enjoy viewing our website!");
+		}
+		else <!-- this statment accounts for any other varible and will tell te user that they inputed a non vauable character./-->
+		{
+			alert("Not Valuable character!");
+			}
+		</script>
 		<!-- Apply heading-->
 		<h2> Apply Now!</h2>
-		<!-- A ordered list for how to apply or get into contact with a director-->
+		<!-- A ordered list for how to apply or get into contact with one of the directors-->
 		<ol>
 			<li>Go to<a href = "https://cas.campbell.edu/academic-programs/music/performance-groups/athletic-bands/contact-athletic-bands/"> Contact Athletic Bands</u></a> and fill out the interest form</li> 
 			<p>or</p>
-			<li>Contact Dr. Michael Phillips at></li>
+			<li>Contact Dr. Michael Phillips at></li> 
 			<p>mphillips@campbell.edu</p>
+			
+		
 
-
-<!-- Temporarily placed, will be moved at a later date--><!--Webpage for the main Campbell Band page-->
+<!--Webpage for the main Campbell Band page-->
 		<p><a href = “https://cas.campbell.edu/academic-programs/music/performance-groups/”><u>Campbell University Band Page</u></a>
 		</p>
 		
