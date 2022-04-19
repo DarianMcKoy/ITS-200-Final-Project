@@ -56,22 +56,22 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	opacity: 0.90; /*This makes the image a little faded than normal*/
 	filter: brightness(50%); /*Brightness dimmed by half*/
 }
-.apply_text {
-	position: absolute;
-	top: 170%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: White;
-	font-family: "Helvetica", "Roboto", "Arial";
-	width: 96%;
-	font-weight: 300;
-	font-size: 1.5rem;
+.apply_text { /*All adjustments made for text over the tuba image*/
+	position: absolute; /*Sets text over image precisely*/
+	top: 170%; /*distance from top of page*/
+	left: 50%; /*distance from left of page by half*/
+	transform: translate(-50%, -50%); /*Transforms text based on size of page*/
+	color: White; /*text color is white*/
+	font-family: "Helvetica", "Roboto", "Arial"; /*Font family will more than likely be Arial*/
+	width: 96%; /*Width of all text to cover image*/
+	font-weight: 300; /*Font weight is 300 over the image so it stays strong*/
+	font-size: 1.5rem; /*Font size is 24px*/
 }
-.ullist {
-  display: table;
-  margin: 0 auto;
+.ullist {/*calls for the bulleted list to be edited*/
+  display: table; /*displays list in table format*/
+  margin: 0 auto; /*margin from middle stays same*/
 }
-.ollist {
+.ollist {/*calls for the numbered list to be edited*/
 	display: table;
 	margin: 0 auto;
 }
