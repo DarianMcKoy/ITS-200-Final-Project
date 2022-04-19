@@ -47,3 +47,31 @@ p.one{ /*This calls for the the paragraph one class in the html to be customized
 	border: none; /*Gets rid of the basic borders of a button*/
 	padding: 1.125rem 2.25rem 1rem; /*Allows more spacing between the words and edges of the button*/
 }
+.tuba_background {
+	border-style: none;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	opacity: 0.90;
+	filter: brightness(50%);
+}
+.apply_text {
+	position: absolute;
+	top: 170%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: White;
+	font-family: "Helvetica", "Roboto", "Arial";
+	width: 96%;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.ullist {
+  display: table;
+  margin: 0 auto;
+}
+.ollist {
+	display: table;
+	margin: 0 auto;
+}
